@@ -105,7 +105,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
                 <li className="semiBold font20 pointer flexCenter">
                     <div className="radius8 border border-rounded" style={{ padding: "4px 4px", background: "#0d545ff0" }}>
 
-                        <WalletMultiButton className="wallet-btn" />
+                        <WalletMultiButton className="wallet-btn " />
                     </div>
                 </li>
             </UlStyle>

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\comp",
     "\\src\\comp\\Navbar",
-    "\\src\\comp\\NftShowcase"
+    "\\src\\comp\\NftShowcase",
+    "\\src\\comp\\roadmap"
   ],
   "SelectedNode": "\\src\\comp",
   "PreviewInSolutionExplorer": false

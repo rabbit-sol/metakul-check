@@ -11,8 +11,7 @@ const TeamMemberData = [
     { img: Ak, name: "Shubham Kunwar", instaGram: "https://discord.gg/sRk3tZ9z3A", linkedIn: "", id: 1,role:"Blockchain developer" },
     { img: Ak, name: "Shubham Kunwar", instaGram: "https://discord.gg/sRk3tZ9z3A", linkedIn: "", id: 1,role:"Blockchain developer" },
     { img: Ak, name: "Narendra Rauthan", instaGram: "", linkedIn: "", id: 2, role: "UI/UX Designer" },
-    { img: Ak, name: "Narendra Rauthan", instaGram: "", linkedIn: "", id: 2, role: "UI/UX Designer" },
-  
+   
     
 ];
 

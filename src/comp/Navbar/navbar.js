@@ -9,7 +9,7 @@ import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
-
+import "./navBar.css"
 const TopNavbar = () =>{
     const [y, setY] = useState(window.scrollY);
     const [sidebarOpen, toggleSidebar] = useState(false);

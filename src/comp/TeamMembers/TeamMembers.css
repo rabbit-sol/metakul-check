@@ -40,8 +40,9 @@
     margin-left: 50px;
     margin-bottom:50px
 }
-.MarginContainer{
-    margin:auto
+.MarginContainer {
+    margin: auto;
+    margin-right: 5%;
 }
 .CardText {
     font-family: "Outfit";
@@ -102,12 +103,13 @@
     display: flex;
     flex-direction: row;
 
+
    
 }
 @media only screen and (max-width: 1200px) {
     .CardContainer {
         display: flex;
-        flex-direction: column;
+
     }
 
     .TeamImage {
@@ -143,15 +145,13 @@
         align-items: end;
         flex-direction: column;
         margin-left: -22px;
+     
     }
 
     element.style {
     }
 
-     .TeamImage {
-        width: 186px;
-        height: 125px;
-    }
+
     .IconContainer {
         width: 80%;
         margin-left: -80%;
@@ -165,9 +165,23 @@
     .Container {
        
         background-color:black;
-         }
-}
 
+
+        }
+}
+@media only screen and (max-width: 768px) {
+    .CardContainer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .MarginContainer {
+        margin: auto;
+        margin-right: 5%;
+       
+    }
+
+    }
 
 
 

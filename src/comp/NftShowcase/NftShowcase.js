@@ -6,6 +6,10 @@ import Qna from "../qna/qna";
 
 import './NftShowcase.css'
 
+;
+
+
+
 
 const NftData = [
     {
@@ -50,7 +54,7 @@ export default function NftShowCase() {
             </div>
             <div className="MainQnaContainer" >
                 <Qna></Qna>
-                <iframe className={"mainVideo"} src="https://www.instagram.com/reel/CgDvAEpKa4Z/?utm_source=ig_embed&amp;utm_campaign=loading"  ></iframe>
+                <iframe className={"mainVideo"} src="https://www.youtube.com/embed/afdnbXXbBTg"  ></iframe>
  </div>
         </div>
     );

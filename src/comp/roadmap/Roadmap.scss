@@ -76,7 +76,7 @@ $brand-color:#df8625;
             li
 
 {
-    height: 300px;
+    height: 250px;
     float: none !important;
     width: inherit !important;
     /*   &:nth-child(2) {
@@ -92,7 +92,7 @@ $brand-color:#df8625;
 {
     margin: 0;
     bottom: 0 !important;
-    height: 120px;
+    height: 10px;
     .ps-top
 
 {
@@ -187,7 +187,7 @@ p {
 
 &.ps-timeline {
 
-    margin: 390px 0;
+    margin: 430px 0;
     padding: 0;
     border-top: 2px solid $brand-color-g;
     list-style: none;
@@ -323,9 +323,9 @@ h4 {
 }
 }
 
-@media only screen and (min-width: 1060px) {
+
     .ps-timeline-sec .container ol.ps-timeline li p {
         width: 100%;
         margin: 15px auto !important;
     }
-}
+

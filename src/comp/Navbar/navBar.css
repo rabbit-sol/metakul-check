@@ -28,6 +28,10 @@
     max-width: 1500px;
 }
 
+.wallet-adapter-button {
+    line-height: 5px !important;
+}
+
 .main-container {
     position: absolute;
     top: 0;

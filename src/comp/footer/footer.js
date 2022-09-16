@@ -59,7 +59,7 @@ export default function Footer() {
                 <div className={"MetakulIconContainer"} id="contact">
                     <MetaKulHeading1>Connect With Us</MetaKulHeading1>
                     <div className={"MetakulIcon"}>
-                            <div className={"FlexRow"} between>
+                            <div className={"FlexRow2"} between>
                                 <a activeClass="active" href="https://www.instagram.com/metakul.nft/" spy={true} smooth={true} offset={-80}>
                                     <img className={"IconSocial "} src={Instagram}></img>
                                 </a>

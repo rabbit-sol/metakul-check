@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
 import LogoIcon from "../../assets/svg/Logo";
-
+import { WalletMultiButton, } from "@solana/wallet-adapter-react-ui";
 export default function Sidebar({ sidebarOpen, toggleSidebar }) {
     return (
         <Wrapper className="animate darkBg" sidebarOpen={sidebarOpen}>
@@ -103,9 +103,10 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
                     </a>
                 </li>
                 <li className="semiBold font20 pointer flexCenter">
-                    <a href="/" className="radius8 " style={{ padding: "10px 15px", background: "hsl(188deg 78% 15%)"}}>
-                        Connect Wallet
-                    </a>
+                    <div className="radius8 border border-rounded" style={{ padding: "4px 4px", background: "#0d545ff0" }}>
+
+                        <WalletMultiButton className="wallet-btn" />
+                    </div>
                 </li>
             </UlStyle>
         </Wrapper>

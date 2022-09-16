@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 // Components
+
+import { WalletMultiButton, } from "@solana/wallet-adapter-react-ui";
 import Sidebar from "./Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
-import { WalletModalProvider, WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+
 const TopNavbar = () =>{
     const [y, setY] = useState(window.scrollY);
     const [sidebarOpen, toggleSidebar] = useState(false);
@@ -70,9 +72,10 @@ const TopNavbar = () =>{
                                 Mint
                             </a>
                         </li>
-                        <li className="semiBold font20 pointer flexCenter">
-                            <div className="radius8 border border-rounded" style={{ padding: "4px 4px" }}>
-                                <WalletMultiButton />
+                        <li className="semiBold  font20 pointer flexCenter">
+                            <div className="radius8 border border-rounded" style={{ padding: "4px 4px", background: "#0d545ff0"}}>
+                           
+                            <WalletMultiButton  className="wallet-btn " />
                             </div>
                         </li>
                     </UlWrapperRight>

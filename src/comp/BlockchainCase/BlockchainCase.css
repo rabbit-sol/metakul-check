@@ -1,12 +1,11 @@
 .blockContainer {
     padding-top:50px;
-    padding-bottom:50px;
+    padding-bottom:-50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background: radial-gradient( at top left, rgba(9, 8, 68, 1), transparent 1300px ), radial-gradient(at top right, rgba(44, 87, 137, 1), transparent 1500px), radial-gradient(at center left, rgba(33, 29, 43, 1), transparent 1300px), radial-gradient(at center right, rgba(9, 8, 68, 1), transparent 1800px), radial-gradient(at bottom right, rgba(97, 120, 104, 1), transparent 400px), radial-gradient(at bottom left, rgba(9, 8, 68, 1), transparent 2000px);
-    
+   
 }
 
 .QaContainerRight {

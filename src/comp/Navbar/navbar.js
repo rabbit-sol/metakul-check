@@ -27,11 +27,11 @@ const TopNavbar = () =>{
             <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
             {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
             <Wrapper className="flexCenter animate " style={y > 100 ? { height: "60px" } : { height: "80px" }}>
-                <NavInner className="container flexSpaceCenter">
+                <NavInner className=" flexSpaceCenter">
                     <Link className="pointer flexNullCenter" to="/" smooth={true}>
                         <LogoIcon />
                         <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-                            Metakul
+                          
                         </h1>
                     </Link>
                     <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
@@ -49,7 +49,7 @@ const TopNavbar = () =>{
                             </a>
                         </li>
                         <li className="semiBold font20 pointer">
-                            <a activeClass="active" style={{ padding: "10px 15px" }} href="/roadmap" spy={true} smooth={true} offset={-80}>
+                            <a activeClass="active" style={{ padding: "10px 15px" }} href="/#roadmap" spy={true} smooth={true} offset={-80}>
                                 Roadmap
                             </a>
                         </li>

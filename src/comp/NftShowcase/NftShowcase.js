@@ -1,7 +1,7 @@
 import Nft1 from "../../assets/nft3.png";
 import Nft2 from "../../assets/nft2.png";
 import Nft3 from "../../assets/nft1.png";
-import Qna from "../qna/qna";
+
 
 
 import './NftShowcase.css'
@@ -52,10 +52,7 @@ export default function NftShowCase() {
               
 
             </div>
-            <div className="MainQnaContainer" >
-                <Qna></Qna>
-                <iframe className={"mainVideo"} src="https://www.youtube.com/embed/afdnbXXbBTg"  ></iframe>
- </div>
+          
         </div>
     );
 }

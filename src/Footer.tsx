@@ -20,40 +20,29 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //components
 import Footer from "./comp/footer/footer";
 import NavBar from "./comp/Navbar/navbar";
-
+import NewsLetter from "./comp/newsLetter/newsLetter";
 import Roadmaps from "./comp/Roadmaps/Roadmap";
 //pages
 import Home from "./pages/home";
 import Mint from "./pages/mint";
-
-import TeamMembers from "./comp/TeamMembers/TeamMembers"
+import Roadmap from "./pages/roadmap";
 require('./App.css');
 require('@solana/wallet-adapter-react-ui/styles.css');
 
 const App: FC = () => {
     return (
         <Context>
-            <Router>
+           
 
-                <NavBar
+              
 
-                />
-                <Routes>
-
-                    <Route path="/" element={<Home />} />
-                    <Route path="/mint" element={<Mint />} />
+                <div className={"Container"}>
                     
-                </Routes>
-                
+                    <NewsLetter></NewsLetter>
+                    <Footer></Footer>
 
-                
-               
-              
+                </div>
 
-                
-
-              
-            </Router>
         </Context>
     );
 };
@@ -70,10 +59,10 @@ const Context: FC<{ children: ReactNode }> = ({ children }) => {
     const wallets = useMemo(
         () => [
             new PhantomWalletAdapter(),
-           
+
             new SolflareWalletAdapter({ network }),
-           
-           
+
+
 
         ],
         [network]

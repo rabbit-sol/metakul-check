@@ -3,11 +3,14 @@
     "",
     "\\src",
     "\\src\\comp",
-    "\\src\\comp\\HeroSection",
+    "\\src\\comp\\BlockchainCase",
     "\\src\\comp\\Navbar",
+    "\\src\\comp\\NftCase",
     "\\src\\comp\\NftShowcase",
-    "\\src\\comp\\roadmap"
+    "\\src\\comp\\roadmap",
+    "\\src\\comp\\TeamMembers",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\comp\\HeroSection\\HeroSection.css",
+  "SelectedNode": "\\src\\comp\\TeamMembers\\TeamMembers.css",
   "PreviewInSolutionExplorer": false
 }

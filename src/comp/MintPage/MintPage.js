@@ -1,4 +1,4 @@
-﻿
+
 import { FC, useEffect, useState } from "react";
 import styled from "styled-components";
 import Countdown from "react-countdown";
@@ -73,8 +73,8 @@ const Mint = () => {
             <div>
                 <Card elevation={1}>
                     <Timer>{days}</Timer>
-                    <Timer1>
                     <br />
+                    <Timer1>
                         Days
                     </Timer1>
                 </Card>
@@ -134,13 +134,13 @@ const Mint = () => {
     
         <div className="featuredlaunch_container">
          
-            <div className="featuredlaunch_rightCol">
+            <div className="featuredlaunch_rightCol" style={{ justifyContent: "center", alignItems: "center" }}>
                
                 
                 
 
                 <div className="featuredLaunch_name HeadingText">MetaKul NFT Mint</div>
-                <img
+                <img 
                     src="https://media.discordapp.net/attachments/936604605767360563/942682678971498566/preview.gif"
                     alt="NFT"
                     width="300px"
@@ -164,7 +164,7 @@ const Mint = () => {
 
             </div>
            
-            <div className="featuredlaunch_leftCol">
+            <div className="featuredlaunch_leftCol" style={{ justifyContent: "center", alignItems: "center" }}>
                        
                 <div className="featuredlaunch_clipboard">
                             <div className="featuredlaunch_box">
@@ -172,12 +172,12 @@ const Mint = () => {
                         <div className="featuredlaunch_quantity">777 NFT<br/>7777 Metaverse Land</div>
                             </div>
                             <div className="featuredlaunch_box">
-                                <span>WHITELIST SALE PRICE</span>
+                                <span>WHITELIST PRICE</span>
                                 <div className="featuredlaunch_quantity">3200INR (40USD)<br/>OR 200 $KULL</div>
                             </div>
                         </div>
-               
-                <h2 style={{  padding: "15px", marginTop: "-10px", color: "white"}}>
+
+                <h2 style={{ padding: "15px", marginTop: "-10px", color: "white", textAlign:"center" }}>
                     Join  now to get whitelist and earn $KULL👇🏻</h2>
                 <div className="featuredlaunch_clipboard">
                     <JoinGang></JoinGang>

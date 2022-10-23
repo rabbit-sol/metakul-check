@@ -1,16 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\comp",
-    "\\src\\comp\\BlockchainCase",
-    "\\src\\comp\\Navbar",
-    "\\src\\comp\\NftCase",
-    "\\src\\comp\\NftShowcase",
-    "\\src\\comp\\roadmap",
-    "\\src\\comp\\TeamMembers",
-    "\\src\\pages"
+    "\\src\\comp\\footer",
+    "\\src\\comp\\Navbar"
   ],
-  "SelectedNode": "\\src\\comp\\TeamMembers\\TeamMembers.css",
+  "SelectedNode": "\\src\\comp\\footer\\footer.css",
   "PreviewInSolutionExplorer": false
 }

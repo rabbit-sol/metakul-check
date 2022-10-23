@@ -1,0 +1,154 @@
+ <section class="elementor-section elementor-inner-section elementor-element elementor-element-326941a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="326941a" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4862983" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-912fb5d elementor-widget__width-auto elementor-widget-tablet__width-inherit elementor-widget elementor-widget-heading" data-id="912fb5d" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                        $KULL Token Launch
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-e7b65c7 elementor-widget__width-auto elementor-widget-tablet__width-auto elementor-invisible elementor-widget elementor-widget-heading" data-id="e7b65c7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">DONE</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-2cc362b elementor-widget elementor-widget-spacer" data-element_type="widget" data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-fedc046 elementor-widget elementor-widget-text-editor"  data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-c8ffc62 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="c8ffc62" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-c9eafe4" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-db2033b elementor-widget__width-auto elementor-widget-tablet__width-inherit elementor-widget elementor-widget-heading" data-id="db2033b" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h3 class="elementor-heading-title elementor-size-default">
+                                                        Boost Feature Launch
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-ef3b09b elementor-widget__width-auto elementor-widget-tablet__width-auto elementor-invisible elementor-widget elementor-widget-heading" data-id="ef3b09b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">UPCOMING</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-a93c106 elementor-widget elementor-widget-spacer"  data-element_type="widget" data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-10b136a elementor-widget elementor-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-6f4be0f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="6f4be0f" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9e70e7e" data-id="9e70e7e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-fb8f241 elementor-widget__width-auto elementor-widget-tablet__width-inherit elementor-widget elementor-widget-heading" data-id="fb8f241" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h3 class="elementor-heading-title elementor-size-default">The Blackout Mint</h3>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-4e2fa45 elementor-widget__width-auto elementor-widget-tablet__width-auto elementor-invisible elementor-widget elementor-widget-heading" data-id="4e2fa45" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">UPCOMING</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-fbb6009 elementor-widget elementor-widget-spacer" data-id="fbb6009" data-element_type="widget" data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-2aac7f3 elementor-widget elementor-widget-text-editor" data-id="2aac7f3" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-4074d1d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="4074d1d" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a77eacc" data-id="a77eacc" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-c856905 elementor-widget__width-auto elementor-widget-tablet__width-inherit elementor-widget elementor-widget-heading" data-id="c856905" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h3 class="elementor-heading-title elementor-size-default">The Mayor Mint</h3>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-9b321de elementor-widget__width-auto elementor-widget-tablet__width-auto elementor-invisible elementor-widget elementor-widget-heading" data-id="9b321de" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">UPCOMING</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-c48b672 elementor-widget elementor-widget-spacer" data-id="c48b672" data-element_type="widget" data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-1c18268 elementor-widget elementor-widget-text-editor" data-id="1c18268" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-e5938b4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="e5938b4" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-842358c" data-id="842358c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-078e02c elementor-widget__width-auto elementor-widget-tablet__width-inherit elementor-widget elementor-widget-heading" data-id="078e02c" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h3 class="elementor-heading-title elementor-size-default">PVP Game Release</h3>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-320fa0c elementor-widget__width-auto elementor-widget-tablet__width-auto elementor-invisible elementor-widget elementor-widget-heading" data-id="320fa0c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">UPCOMING</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d2357d2 elementor-widget elementor-widget-spacer" data-id="d2357d2" data-element_type="widget" data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-2505618 elementor-widget elementor-widget-text-editor" data-id="2505618" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>

@@ -21,7 +21,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./comp/footer/footer";
 import NavBar from "./comp/Navbar/navbar";
 import NewsLetter from "./comp/newsLetter/newsLetter";
-import Roadmaps from "./comp/Roadmaps/Roadmap";
+import Roadmaps from "./comp/Roadmap/Roadmap";
 //pages
 import Home from "./pages/home";
 import Mint from "./pages/mint";

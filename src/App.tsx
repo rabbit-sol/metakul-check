@@ -18,15 +18,14 @@ import React, { FC, ReactNode, useMemo } from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //components
-import Footer from "./comp/footer/footer";
 import NavBar from "./comp/Navbar/navbar";
 
-import Roadmaps from "./comp/Roadmaps/Roadmap";
+import Roadmap from "./comp/Roadmap/Roadmap";
 //pages
 import Home from "./pages/home";
 import Mint from "./pages/mint";
 
-import TeamMembers from "./comp/TeamMembers/TeamMembers"
+
 require('./App.css');
 require('@solana/wallet-adapter-react-ui/styles.css');
 
@@ -40,11 +39,11 @@ const App: FC = () => {
                 />
                 <Routes>
 
-                    <Route path="/" element={<Home />} />
-                    <Route path="/mint" element={<Mint />} />
+                    <Route id="home" path="/" element={<Home />} />
+                    <Route id="mint" path="/mint" element={<Mint />} />
                     
                 </Routes>
-                
+              
 
                 
                

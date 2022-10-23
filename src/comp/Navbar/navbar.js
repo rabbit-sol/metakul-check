@@ -75,7 +75,7 @@ const TopNavbar = () =>{
                         <li className="semiBold  font20 pointer flexCenter">
                             <div className="radius8 border border-rounded" style={{ padding: "4px 4px", background: "#0d545ff0"}}>
                            
-                            <WalletMultiButton  className="wallet-btn " />
+                            <WalletMultiButton  className="wallet-btn wallet-btn-h1" />
                             </div>
                         </li>
                     </UlWrapperRight>

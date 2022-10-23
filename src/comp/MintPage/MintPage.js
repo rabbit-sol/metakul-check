@@ -48,14 +48,18 @@ const Card = styled(Paper)`
 
     
 `;
-const Timer = styled.h1`
-
+const Timer = styled.div`
+font-size:1em;
 color:white;
+justify-content: center;	
+align-items: center;
 
 `
-const Timer1= styled.h3`
-
+const Timer1= styled.div`
+font-size:1.3rem;
 color:white;
+justify-content: center;
+align-items: center;
 
 `
 
@@ -72,21 +76,21 @@ const Mint = () => {
         return (
             <div>
                 <Card elevation={1}>
-                    <Timer>{days}</Timer>
+                    <Timer ><h3>{days}</h3></Timer>
                     <br />
                     <Timer1>
                         Days
                     </Timer1>
                 </Card>
                 <Card elevation={1}>
-                    <Timer>{hours}</Timer>
+                    <Timer><h3>{hours}</h3></Timer>
                     <br />
                     <Timer1>
                             Hours
                         </Timer1>
                 </Card>
                 <Card elevation={1}>
-                    <Timer>{minutes}</Timer>
+                    <Timer><h3>{minutes}</h3></Timer>
                     <br />
                     <Timer1>
                         Mins
@@ -94,7 +98,7 @@ const Mint = () => {
                     
                 </Card>
                 <Card elevation={1}>
-                    <Timer>{seconds}</Timer>
+                            <Timer><h3>{seconds}</h3></Timer>
                             <br />
                             <Timer1>
                                 Secs
@@ -104,32 +108,7 @@ const Mint = () => {
         );
     };
 
-    const renderer = ({ days, hours, minutes, seconds, completed }) => {
-        return (
-            <div >
-                <Card elevation={1}>
-                    <h1>{days}</h1>
-                    <br />
-                    Days
-                </Card>
-                <Card elevation={1}>
-                    <h1>{hours}</h1>
-                    <br />
-                    Hours
-                </Card>
-                <Card elevation={1}>
-                    <h1>{minutes}</h1>
-                    <br />
-                    Mins
-                </Card>
-                <Card elevation={1}>
-                    <h1>{seconds}</h1>
-                    <br />
-                    Secs
-                </Card>
-            </div>
-        );
-    };
+  
     return(
     
         <div className="featuredlaunch_container">
@@ -141,7 +120,7 @@ const Mint = () => {
 
                 <div className="featuredLaunch_name HeadingText">MetaKul NFT Mint</div>
                 <img 
-                    src="https://media.discordapp.net/attachments/936604605767360563/942682678971498566/preview.gif"
+                    src="https://media.discordapp.net/attachments/954642077340278825/1019585636375732285/6tckjj.gif"
                     alt="NFT"
                     width="300px"
                 />

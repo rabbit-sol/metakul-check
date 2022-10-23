@@ -1,5 +1,5 @@
 .Containershowcase {
-    height: 750px;
+    height: 350px;
     padding-top: 0px;
     background-color: #000;
     display: flex;
@@ -83,7 +83,7 @@
 
 .MainQnaContainer {
     margin-top: 60px;
-    margin-bottom:100px;
+    margin-bottom:-40px;
     padding: 50px 220px 50px 220px;
 }
 
@@ -132,7 +132,7 @@
 
 @media only screen and (min-width: 1200px) {
     .Containershowcase {
-        height: 750px;
+        height: 350px;
         padding-top: 0px;
         background-color: #000;
         display: flex;

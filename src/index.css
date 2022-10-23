@@ -1201,6 +1201,16 @@ body {
         padding: 0em 1.5em !important;
     }
 }
+
+.wallet-btn-h1 h1 {
+    font-weight: 500;
+    font-size: 24px !important;
+    line-height: 36px;
+    margin: 0;
+    padding: 64px 48px 48px 48px;
+    text-align: center;
+    color: #fff;
+}
 .elementor-kit-3 button, .elementor-kit-3 input[type=button], .elementor-kit-3 input[type=submit], .elementor-kit-3 .elementor-button {
     font-family: var( --e-global-typography-accent-font-family ),Sans-serif;
     font-weight: var( --e-global-typography-accent-font-weight );
@@ -1222,7 +1232,7 @@ body {
 .elementor-kit-3 h1 {
     color: var( --e-global-color-101c8bb );
     font-family: poppins,Sans-serif;
-    font-size: 2.5em !important;
+    font-size: 1.5em !important;
     font-weight: 400;
     line-height: 1em;
 }
@@ -1231,7 +1241,7 @@ body {
 .elementor-kit-3 h2 {
     color: var( --e-global-color-101c8bb );
     font-family: "Poppins", Sans-serif;
-    font-size: 2.7em !important;
+    font-size: 2.4em !important;
     font-weight: 600;
 }
 
@@ -1245,12 +1255,11 @@ body {
     background-color: none !important;
     
 }
-.wallet-btn-h1 h1 {
-    font-weight: 500;
-    font-size: 24px !important;
-    line-height: 36px;
-    margin: 0;
-    padding: 64px 48px 48px 48px;
-    text-align: center;
-    color: #fff;
+
+.elementor-counter-number{
+    font-size:55px;
+}
+.sc-crXcEl GHxgB{
+    font-size:2.5em !important;
+
 }

@@ -26,9 +26,12 @@ export default function Footer() {
                             <div class="elementor-element elementor-element-a215a60 elementor-widget__width-auto elementor-mobile-align-center elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button"  data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a href="#" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow" role="button">
+                                        <a href="https://telegram.me/+OqiC3gNJDQ1hY2Rl" target="_blank" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow" role="button">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">View on OpenSea</span>
+                                                <span class="elementor-button-icon elementor-align-icon-right">
+                                                    <i aria-hidden="true" class="fab fa-telegram"></i>
+                                                </span>
+                                                <span class="elementor-button-text">Join Telegram</span>
                                             </span>
                                         </a>
                                     </div>
@@ -37,7 +40,7 @@ export default function Footer() {
                             <div class="elementor-element elementor-element-e5ef24b elementor-widget__width-auto elementor-mobile-align-center elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button"  data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a href="#" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow" role="button">
+                                        <a href="https://discord.gg/wMcv6HW6VJ" target="_blank" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow" role="button">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-icon elementor-align-icon-right">
                                                     <i aria-hidden="true" class="fab fa-discord"></i>

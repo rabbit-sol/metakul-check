@@ -13,17 +13,17 @@ import './NftShowcase.css'
 
 const NftData = [
     {
-        url: Nft1,
+        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero1.png",
         name: "NFT one",
         id:1
     },
     {
-        url: Nft2,
+        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero2.png",
         name: "NFT two",
         id: 2
     },
     {
-        url: Nft3,
+        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero4.png",
         name: "NFT one",
         id: 3
     }

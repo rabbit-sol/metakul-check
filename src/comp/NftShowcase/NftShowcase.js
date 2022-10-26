@@ -13,17 +13,17 @@ import './NftShowcase.css'
 
 const NftData = [
     {
-        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero1.png",
+        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero1.webp",
         name: "NFT one",
         id:1
     },
     {
-        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero2.png",
+        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero2.webp",
         name: "NFT two",
         id: 2
     },
     {
-        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero4.png",
+        url: "https://raw.githubusercontent.com/rabbit-sol/metakul-nft/main/hero4.webp",
         name: "NFT one",
         id: 3
     }

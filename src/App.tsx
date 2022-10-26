@@ -20,7 +20,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //components
 import NavBar from "./comp/Navbar/navbar";
 
-import Roadmap from "./comp/Roadmap/Roadmap";
 //pages
 import Home from "./pages/home";
 import Mint from "./pages/mint";

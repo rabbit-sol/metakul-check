@@ -34,7 +34,7 @@ const TopNavbar = () =>{
                           
                         </h1>
                     </Link>
-                    <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
+                    <BurderWrapper className="pointer"  onClick={() => toggleSidebar(!sidebarOpen)}>
                         <BurgerIcon />
                     </BurderWrapper>
                     <UlWrapper className="flexNullCenter">
@@ -61,7 +61,7 @@ const TopNavbar = () =>{
                        
                       
                         <li className="semiBold font20 pointer">
-                            <a activeClass="active" style={{ padding: "10px 15px" }} href="/#contact" spy={true} smooth={true} offset={-80}>
+                            <a activeClass="active" style={{ padding: "10px 15px" }} href="/#footer" spy={true} smooth={true} offset={-80}>
                                 Contact
                             </a>
                         </li>

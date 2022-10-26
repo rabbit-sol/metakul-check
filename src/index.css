@@ -1251,7 +1251,7 @@ body {
 .elementor-kit-3 button, .elementor-kit-3 input[type=button], .elementor-kit-3 input[type=submit], .elementor-kit-3 .elementor-button {
     font-family: var( --e-global-typography-accent-font-family ),Sans-serif;
     font-weight: var( --e-global-typography-accent-font-weight );
-    color: #ebebeb !important;
+    color: #ffffff !important;
     background-color: none !important;
     
 }

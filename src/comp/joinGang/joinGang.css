@@ -36,6 +36,31 @@
     padding-right: 15px;
 }
 
+.wallet-btn12 {
+    font-family: "Outfit" !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 25px;
+    color: #ffffff;
+    padding: 20px 20px !important;
+}
+.Button22 {
+    background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+    border-radius: 90px;
+    padding: 6px 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit" !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 25px;
+    line-height: 25px;
+    color: #ffffff;
+   
+}
+
 @media only screen and (max-width: 1200px) {
     .HeadingText {
         font-family: "Outfit";

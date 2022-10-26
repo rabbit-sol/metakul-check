@@ -7,7 +7,7 @@ import JoinGang from "../../comp/joinGang/joinGang";
 
 import "./MintPage.css";
 
-import Container from "@mui/material/Container";
+
 
 
 const CountDowns = styled(Countdown)`
@@ -157,7 +157,7 @@ const Mint = () => {
                         </div>
 
                 <h2 style={{ padding: "15px", marginTop: "-10px", color: "white", textAlign:"center" }}>
-                    Join  now to get whitelist and earn $KULL👇🏻</h2>
+                    Connect Walllet to get whitelist and earn Crypto👇🏻</h2>
                 <div className="featuredlaunch_clipboard">
                     <JoinGang></JoinGang>
                 </div>

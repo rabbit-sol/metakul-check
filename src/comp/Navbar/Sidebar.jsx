@@ -87,7 +87,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
                         activeClass="active"
                         className="whiteColor"
                         style={{ padding: "10px 15px" }}
-                        href="/#contact"
+                        href="/#footer"
                         spy={true}
                         smooth={true}
                         offset={-60}

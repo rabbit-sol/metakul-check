@@ -16,8 +16,8 @@ const Home = () => {
             <NftShowcase></NftShowcase>
             <div className="MainQnaContainer" >
                 <Qna></Qna>
-                <iframe className={"mainVideo"} height="500px" style={{ marginTop: "50px" }} src="https://www.youtube.com/embed/afdnbXXbBTg"  ></iframe>
             </div>
+                <iframe className={"mainVideo"} height="500px" style={{ marginTop: "50px" }} src="https://www.youtube.com/embed/afdnbXXbBTg"  ></iframe>
             
 
             <Footer></Footer>

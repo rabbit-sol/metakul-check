@@ -156,8 +156,8 @@ const Mint = () => {
                             </div>
                         </div>
 
-                <h2 style={{ padding: "15px", marginTop: "-10px", color: "white", textAlign:"center" }}>
-                    Connect Walllet to get whitelist and earn Crypto👇🏻</h2>
+                <h3 style={{ padding: "15px", marginTop: "-10px", color: "white", textAlign:"center" }}>
+                    Connect Walllet to get whitelist and earn Crypto👇🏻</h3>
                 <div className="featuredlaunch_clipboard">
                     <JoinGang></JoinGang>
                 </div>

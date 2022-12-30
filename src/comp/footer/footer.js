@@ -30,7 +30,7 @@ export default function Footer() {
                                         <a href="/mint" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow" role="button">
                                             <span class="elementor-button-content-wrapper" >
                                                 
-                                                <span class="elementor-button-text">Metaverse NFT's</span>
+                                                <span class="elementor-button-text">Mint Free NFT's</span>
                                             </span>
                                         </a>
                                     </div>

@@ -71,7 +71,7 @@ const Mint = () => {
 
 
     const currentDate = new Date(new Date().toUTCString()).getTime();
-    const launchDate = new Date(Date.UTC(2023, 1, 17, 14, 55, 0, 0)).getTime();
+    const launchDate = new Date(Date.UTC(2023, 0, 1, 14, 55, 0, 0)).getTime();
     const renderCounter = ({ days, hours, minutes, seconds }: any) => {
         return (
             <div>

@@ -2,7 +2,7 @@ const staticData = {
   hero: {
     mainLine: "Learn and Earn Rare NFT in Metaverse",
     followLine:
-      "The Innovative Solana Metaverse Reforming Vedic Education via blockchain",
+      "The Innovative Polygon Metaverse Reforming Vedic Education via blockchain",
   },
   qAndA: {
     metaKul: {

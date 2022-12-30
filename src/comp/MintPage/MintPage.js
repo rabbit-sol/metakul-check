@@ -144,23 +144,23 @@ const Mint = () => {
             </div>
            
             <div className="featuredlaunch_leftCol" style={{ justifyContent: "center", alignItems: "center" }}>
-                       
+                <h3 style={{ padding: "15px", marginTop: "-10px", color: "white", textAlign: "center" }}>
+                    Get your wallet Ready for free nft and earn passive Crypto👇🏻</h3>
+                <div className="featuredlaunch_clipboard">
+                    <JoinGang></JoinGang>
+                </div>
                 <div className="featuredlaunch_clipboard">
                             <div className="featuredlaunch_box">
                                 <span>METAKUL SUPPLY</span>
                         <div className="featuredlaunch_quantity">777 NFT<br/>7777 Metaverse Land</div>
                             </div>
                             <div className="featuredlaunch_box">
-                                <span>WHITELIST PRICE</span>
-                                <div className="featuredlaunch_quantity">3200INR (40USD)<br/>OR 200 $KULL</div>
+                                <span>EARLY BIRD PRICE</span>
+                                <div className="featuredlaunch_quantity">FREE</div>
                             </div>
                         </div>
 
-                <h3 style={{ padding: "15px", marginTop: "-10px", color: "white", textAlign:"center" }}>
-                    Connect Walllet to get whitelist and earn Crypto👇🏻</h3>
-                <div className="featuredlaunch_clipboard">
-                    <JoinGang></JoinGang>
-                </div>
+             
             </div>
            
 

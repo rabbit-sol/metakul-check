@@ -3,8 +3,10 @@ import "./joinGang.css"
 import Discord from "../../assets/social/discord.png";
 import LinkedIn from "../../assets/social/linkedin.png";
 import { Link } from "react-router-dom";
-
+import { ConnectWallet } from "@thirdweb-dev/react";
 import { WalletMultiButton, } from "@solana/wallet-adapter-react-ui";
+
+
 export default function JoinGang() {
     return (
         <div >
@@ -20,9 +22,9 @@ export default function JoinGang() {
                             Discord
                         </a>
                     </div>
-                    <div className="Button22">
+                    <div >
                         
-                        <WalletMultiButton className="wallet-btn12 wallet-btn-h1" >Connect Wallet</WalletMultiButton>
+                        <ConnectWallet/>
                         
                     </div>
                 </div>

@@ -4,10 +4,15 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import footer from "./Footer"
+import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
+const activeChainId = ChainId.Goerli;
+
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <ThirdwebProvider desiredChainId={activeChainId}>
+            <App />
+        </ThirdwebProvider>
     </React.StrictMode>,
     document.getElementById('root')
 

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 // Assets
+import { ConnectWallet } from "@thirdweb-dev/react";
 import CloseIcon from "../../assets/svg/CloseIcon";
 import LogoIcon from "../../assets/svg/Logo";
 import { WalletMultiButton, } from "@solana/wallet-adapter-react-ui";
@@ -105,7 +106,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
                 <li className="semiBold font20 pointer flexCenter">
                     <div className="radius8 border border-rounded" style={{ padding: "4px 4px", background: "#0d545ff0" }}>
 
-                        <WalletMultiButton className="wallet-btn " />
+                        <ConnectWallet className="wallet-btn " />
                     </div>
                 </li>
             </UlStyle>

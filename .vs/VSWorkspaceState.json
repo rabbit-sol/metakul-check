@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\src",
     "\\src\\comp",
-    "\\src\\comp\\footer",
-    "\\src\\comp\\Navbar"
+    "\\src\\comp\\BlockchainCase",
+    "\\src\\comp\\Elements",
+    "\\src\\comp\\HeroSection",
+    "\\src\\comp\\joinGang",
+    "\\src\\comp\\MintPage",
+    "\\src\\comp\\newsLetter",
+    "\\src\\comp\\NftCase"
   ],
-  "SelectedNode": "\\src\\comp\\footer\\footer.css",
+  "SelectedNode": "\\src\\App.tsx",
   "PreviewInSolutionExplorer": false
 }

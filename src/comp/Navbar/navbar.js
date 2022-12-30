@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 // Components
-
+import { ConnectWallet } from "@thirdweb-dev/react";
 import { WalletMultiButton, } from "@solana/wallet-adapter-react-ui";
 import Sidebar from "./Sidebar";
 import Backdrop from "../Elements/Backdrop";
@@ -26,15 +26,15 @@ const TopNavbar = () =>{
         <>
             <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
             {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
-            <Wrapper className="flexCenter animate " style={y > 100 ? { height: "60px" } : { height: "80px" }}>
+            <Wrapper className=" animate "  style={y > 100 ? { height: "60px" } : { height: "80px" }}>
                 <NavInner className=" flexSpaceCenter">
-                    <Link className="pointer flexNullCenter" to="/" smooth={true}>
+                    <Link className="pointer flexNullCenter" to="/" smooth={true} style={{ marginLeft: "20px" }}>
                         <LogoIcon />
                         <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
                           
                         </h1>
                     </Link>
-                    <BurderWrapper className="pointer"  onClick={() => toggleSidebar(!sidebarOpen)}>
+                    <BurderWrapper className="pointer" style={{ float: "right" }} onClick={() => toggleSidebar(!sidebarOpen)}>
                         <BurgerIcon />
                     </BurderWrapper>
                     <UlWrapper className="flexNullCenter">
@@ -75,7 +75,7 @@ const TopNavbar = () =>{
                         <li className="semiBold  font20 pointer flexCenter">
                             <div className="radius8 border border-rounded" style={{ padding: "4px 4px", background: "#0d545ff0"}}>
                            
-                            <WalletMultiButton  className="wallet-btn wallet-btn-h1" />
+                            <ConnectWallet  className="wallet-btn wallet-btn-h1" />
                             </div>
                         </li>
                     </UlWrapperRight>

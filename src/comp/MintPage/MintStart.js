@@ -14,6 +14,7 @@ import {
  ChainId
 } from "@thirdweb-dev/react";
 import { BigNumber, utils } from "ethers";
+import useNetwork from "./useNetwork"
 
 import { useMemo, useState } from "react";
 import styles from "./Theme.module.css";
@@ -24,50 +25,7 @@ const myNftDropContractAddress = "0x710E9161e8A768c0605335AB632361839f761374";
 
 const MintStart = () => {
     const { contract: nftDrop } = useContract(myNftDropContractAddress);
-const useNetwork(): readonly [
-  {
-    readonly data: {
-      readonly chain:
-        | {
-            id: number;
-            unsupported: boolean | undefined;
-            name?: string | undefined;
-            nativeCurrency?:
-              | {
-                  name: string;
-                  symbol: string;
-                  decimals: 18;
-                }
-              | undefined;
-            rpcUrls?: string[] | undefined;
-            blockExplorers?:
-              | {
-                  name: string;
-                  url: string;
-                }[]
-              | undefined;
-            testnet?: boolean | undefined;
-          }
-        | undefined;
-      readonly chains: import("wagmi").Chain[];
-    };
-    readonly error: Error | undefined;
-    readonly loading: boolean | undefined;
-  },
-  (
-    | ((chainId: number) => Promise<
-        | {
-            data: undefined;
-            error: import("wagmi").SwitchChainError;
-          }
-        | {
-            data: import("wagmi").Chain | undefined;
-            error: undefined;
-          }
-      >)
-    | undefined
-  ),
-];
+
 const [, switchNetwork] = useNetwork();
 
     const address = useAddress();

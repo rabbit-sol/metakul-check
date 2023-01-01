@@ -293,7 +293,7 @@ const [, switchNetwork] = useNetwork();
                                                                 {buttonLoading ? "Loading..." : buttonText}
                                                 </Web3Button>
 <button onClick={() => switchNetwork(ChainId.Polygon)}>
-      Switch Network
+      Switch To polygon here
     </button>
                                             )}
                                         </div>

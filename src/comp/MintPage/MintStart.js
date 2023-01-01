@@ -299,7 +299,7 @@ const [, switchNetwork] = useNetwork();
     <button style={{marginTop:"15px"}}>                                    
 <h4>Please follow the steps to add Polygon’s Mainnet:</h4>
 
-<h5>1.Navigate to <a href="https://polygonscan.com/" > Switch To polygon here </a>
+<h5>1.Navigate to <a href="https://polygonscan.com/" >polygonscan.com  </a>
   </h5>
 <h5>2.Scroll down to the bottom of the page and click on the button Add Polygon Network</h5>
 

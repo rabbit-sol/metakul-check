@@ -162,15 +162,18 @@ const MintStart = () => {
     ]);
 
     const isLoading = useMemo(() => {
-        return (
-           
-            !nftDrop
-        );
-    }, [
-      
-        nftDrop,
-        
-    ]);
+    return (
+      activeClaimCondition.isLoading ||
+      unclaimedSupply.isLoading ||
+      claimedSupply.isLoading ||
+      !nftDrop
+    );
+  }, [
+    activeClaimCondition.isLoading,
+    nftDrop,
+    claimedSupply.isLoading,
+    unclaimedSupply.isLoading,
+  ]);
 
     const buttonLoading = useMemo(
         () => isLoading || claimIneligibilityReasons.isLoading,

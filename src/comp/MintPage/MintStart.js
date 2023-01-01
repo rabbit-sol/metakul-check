@@ -11,10 +11,9 @@ import {
     useContractMetadata,
     useUnclaimedNFTSupply,
     Web3Button,
- ChainId
+ ChainId,useNetwork
 } from "@thirdweb-dev/react";
 import { BigNumber, utils } from "ethers";
-import useNetwork from "./useNetwork"
 
 import { useMemo, useState } from "react";
 import styles from "./Theme.module.css";
@@ -298,7 +297,7 @@ const [, switchNetwork] = useNetwork();
 
                                             )}
                                         </div>
-<button onClick={() => switchNetwork(ChainId.Polygon)}>
+<button onClick={() => switchNetwork(137)}>
       Switch To polygon here
     </button>
                                     </>

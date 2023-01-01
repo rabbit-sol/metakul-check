@@ -297,8 +297,8 @@ const [, switchNetwork] = useNetwork();
 
                                             )}
                                         </div>
-<button onClick={() => switchNetwork(137)}>
-      Switch To polygon here
+<button style={{marginTop:"15px"}}>
+     <a href="https://wiki.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/" target="_blank"> Switch To polygon here </a>
     </button>
                                     </>
                                 )}

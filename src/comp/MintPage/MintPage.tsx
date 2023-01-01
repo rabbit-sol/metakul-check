@@ -171,7 +171,7 @@ const Mint = () => {
            
             <div className="featuredlaunch_leftCol " style={{display:"flex", justifyContent: "center", marginTop: "10px", alignItems: "center" }}>
                 <div className=" containerMint">
-<div style={{marginBottom:"35px", padding:"0 10px"}}>                                    
+<div style={{marginBottom:"55px", padding:"0 16px"}}>                                    
 <h4 style={{marginBottom:"5px"}}>Please follow the steps to switch to Polygon’s Mainnet:</h4>
 
 <h4 style={{marginBottom:"5px"}}>1.Navigate to <a style={{color:"green"}} href="https://polygonscan.com/" >polygonscan.com  </a>

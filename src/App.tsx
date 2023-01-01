@@ -23,6 +23,7 @@ import NavBar from "./comp/Navbar/navbar";
 //pages
 import Home from "./pages/home";
 import Mint from "./pages/mint";
+import Stake from "./pages/stake";
 
 
 require('./App.css');
@@ -40,6 +41,7 @@ const App: FC = () => {
 
                     <Route id="home" path="/" element={<Home />} />
                     <Route id="mint" path="/mint" element={<Mint />} />
+                    
                     
                 </Routes>
               

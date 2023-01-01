@@ -11,22 +11,25 @@ export default function JoinGang() {
     return (
         <div >
             <div className="">
-                <div className="HeadingText"> Join The Metakul Gang</div>
+                <div className="HeadingText"> Do More with you NFT</div>
             </div>
             <div className={"ButtonContiner"}>
                 <div className="FlexRow1">
-                    <div className="Button" style={{marginRight:"20px"}}>
+                    <div className="mainButton" style={{marginRight:"20px"}}>
 
-                        <img className={"Icon"} src={Discord}></img>
-                        <a style={{ color: "white" }} href="https://discord.gg/sRk3tZ9z3A" activeStyle={{ fontWeight: "bold", }}>
-                            Discord
+                        
+                        <a style={{ color: "white" }} target="_blank" href="https://opensea.io/collection/metakul" >
+                            Sell On Opensea
                         </a>
                     </div>
-                    <div >
+                    <div className="mainButton" style={{ marginRight: "20px" }}>
+
                         
-                        <ConnectWallet/>
-                        
+                        <a style={{ color: "white" }} target="_blank" href="https://stake.metakul.in/" >
+                            Stake & earn Crypto
+                        </a>
                     </div>
+                    
                 </div>
             </div>
         </div>

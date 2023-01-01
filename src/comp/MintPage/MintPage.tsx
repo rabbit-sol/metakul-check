@@ -5,10 +5,20 @@ import Countdown from "react-countdown";
 import { Snackbar, Paper, LinearProgress, Chip } from "@material-ui/core";
 import JoinGang from "../../comp/joinGang/joinGang";
 
+
+import {
+   
+    useContract,
+    useAddress,
+    ThirdwebNftMedia,
+    useOwnedNFTs,
+} from "@thirdweb-dev/react";
+
+
 import "./MintPage.css";
 
-
-
+import MintStart from "./MintStart"
+const myNftDropContractAddress = "0x710E9161e8A768c0605335AB632361839f761374";
 
 const CountDowns = styled(Countdown)`
     margin-left: 140px;
@@ -62,16 +72,36 @@ justify-content: center;
 align-items: center;
 
 `
+const nftBoxGrid = styled.div`
+font-size:1.3rem;
+color:white;
+justify-content: center;
+align-items: center;
+
+`
 
 
 
 
 const Mint = () => {
+   
+    const address = useAddress();
     const [isActive, setIsActive] = useState(false);
+    const { contract: nftDrop } = useContract(myNftDropContractAddress);
 
 
     const currentDate = new Date(new Date().toUTCString()).getTime();
     const launchDate = new Date(Date.UTC(2023, 0, 1, 14, 55, 0, 0)).getTime();
+
+    const { data: ownedNfts } = useOwnedNFTs(nftDrop, address);
+
+    async function opensea(id: string) { 
+        const nft= id+1
+        console.log(`https://www.opensea.io/${myNftDropContractAddress}/${id}`)
+        window.open(`https://opensea.io/assets/matic/${myNftDropContractAddress}/${id}`)
+    }
+
+
     const renderCounter = ({ days, hours, minutes, seconds }: any) => {
         return (
             <div>
@@ -128,27 +158,44 @@ const Mint = () => {
 
                     <div style={{ marginTop: "10px" }}>
 
-                        <CountDowns
-                            date={currentDate + (launchDate - currentDate)}
-                            onMount={({ completed }) => completed && setIsActive(true)}
-                            onComplete={() => {
-                                setIsActive(true);
-                            }}
-                            renderer={renderCounter}
-                        />
+                        <MintStart/>
                     </div>
+                   
+
+                  
 
 
                 </MintButtonContainer>
 
             </div>
            
-            <div className="featuredlaunch_leftCol" style={{ justifyContent: "center", alignItems: "center" }}>
-                <h3 style={{ padding: "15px", marginTop: "-10px", color: "white", textAlign: "center" }}>
-                    Get your wallet Ready for free nft and earn passive Crypto👇🏻</h3>
+            <div className="featuredlaunch_leftCol " style={{display:"flex", justifyContent: "center", marginTop: "10px", alignItems: "center" }}>
+                <div className=" containerMint">
+                    <h3>Your Owned NFT</h3>
+                    <p style={{ color:"white",marginTop:"0px", fontWeight:"bold" }}>( Will Load After Mint )</p>
+                    <div className="nftBoxGrid">
+                        {ownedNfts?.map((nft) => (
+                            <div key={nft.metadata.id.toString()} className="nftBox">
+                                <ThirdwebNftMedia
+                                    metadata={nft.metadata}
+                                    className="nftMedia"
+                                />
+                                <h3 style={{display:"flex", justifyContent: "center", alignItems: "center" }}>{nft.metadata.name}</h3>
+
+                                <button
+                                    onClick={() => opensea(nft.metadata.id)} className="mainButton"
+                                >
+                                    View on Opensea
+                                </button>
+                            </div>
+                        ))}
+                    </div>
+                    </div>
+              
                 <div className="featuredlaunch_clipboard">
                     <JoinGang></JoinGang>
                 </div>
+              
                 <div className="featuredlaunch_clipboard">
                             <div className="featuredlaunch_box">
                                 <span>METAKUL SUPPLY</span>

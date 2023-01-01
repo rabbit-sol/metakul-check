@@ -296,7 +296,6 @@ const [, switchNetwork] = useNetwork();
 
 
                                             )}
-</div>
     <button style={{marginTop:"15px"}}>                                    
 <h4>Please follow the steps to add Polygon’s Mainnet:</h4>
 
@@ -305,6 +304,8 @@ const [, switchNetwork] = useNetwork();
 <h5>2.Scroll down to the bottom of the page and click on the button Add Polygon Network</h5>
 
        </button>
+</div>
+
                                     </>
                                 )}
                             </div>

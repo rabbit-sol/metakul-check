@@ -11,6 +11,7 @@ import {
     useContractMetadata,
     useUnclaimedNFTSupply,
     Web3Button,
+useNetwork, ChainId
 } from "@thirdweb-dev/react";
 import { BigNumber, utils } from "ethers";
 
@@ -23,6 +24,7 @@ const myNftDropContractAddress = "0x710E9161e8A768c0605335AB632361839f761374";
 
 const MintStart = () => {
     const { contract: nftDrop } = useContract(myNftDropContractAddress);
+const [, switchNetwork] = useNetwork();
 
     const address = useAddress();
     const [quantity, setQuantity] = useState(1);
@@ -290,6 +292,9 @@ const MintStart = () => {
                                                 >
                                                                 {buttonLoading ? "Loading..." : buttonText}
                                                 </Web3Button>
+<button onClick={() => switchNetwork(ChainId.Polygon)}>
+      Switch Network
+    </button>
                                             )}
                                         </div>
                                     </>

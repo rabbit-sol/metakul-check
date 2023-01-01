@@ -92,7 +92,7 @@ const MintStart = () => {
                                     <div className={styles.mintAreaRight}>
                                         {claimedSupply && unclaimedSupply ? (
                                             <h6 style={{ color: "white", textAlign: "center" }}>
-                                                    {numberClaimed} { "/" } {numberTotal}
+                                                    {numberClaimed} { "/" } {777}
                                             </h6>
                                         ) : (
                                             // Show loading state if we're still loading the supply

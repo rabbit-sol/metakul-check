@@ -171,6 +171,14 @@ const Mint = () => {
            
             <div className="featuredlaunch_leftCol " style={{display:"flex", justifyContent: "center", marginTop: "10px", alignItems: "center" }}>
                 <div className=" containerMint">
+<div style={{marginBottom:"15px"}}>                                    
+<h4>Please follow the steps to add Polygon’s Mainnet:</h4>
+
+<h5>1.Navigate to <a href="https://polygonscan.com/" >polygonscan.com  </a>
+  </h5>
+<h5>2.Scroll down to the bottom of the page and click on the button Add Polygon Network</h5>
+
+       </div>
                     <h3>Your Owned NFT</h3>
                     <p style={{ color:"white",marginTop:"0px", fontWeight:"bold" }}>( Will Load After Mint )</p>
                     <div className="nftBoxGrid">

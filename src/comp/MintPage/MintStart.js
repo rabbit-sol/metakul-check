@@ -233,14 +233,15 @@ const MintStart = () => {
                                     <h3 style={{ color: "white", textAlign: "center", marginBottom: "20px" }}>
                                         Claim Your Free Nft Now</h3>
                                 {/* Amount claimed so far */}
+<h4 style={{ color: "white", textAlign: "center", marginBottom: "20px" }}>
+                                           (Connect wallet or download new wallet to get started)</h4>
                                     <div className={styles.mintCompletionArea}>
                                         
                                     <div className={styles.mintAreaLeft}>
                                             <h4 style={{ color: "white", textAlign: "center",  }}>
                                             Total Minted</h4>
                                         </div>
-                                        <h4 style={{ color: "white", textAlign: "center", marginBottom: "20px" }}>
-                                           (Connect wallet or download new wallet to get started)</h4>
+                                        
                                     <div className={styles.mintAreaRight}>
                                         {claimedSupply && unclaimedSupply ? (
                                             <h6 style={{ color: "white", textAlign: "center" }}>

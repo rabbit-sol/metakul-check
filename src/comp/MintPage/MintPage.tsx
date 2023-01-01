@@ -174,9 +174,9 @@ const Mint = () => {
 <div style={{marginBottom:"35px", padding:"0 10px"}}>                                    
 <h4 style={{marginBottom:"5px"}}>Please follow the steps to add Polygon’s Mainnet:</h4>
 
-<h5 style={{marginBottom:"5px"}}>1.Navigate to <a style={{color:"blue"}} href="https://polygonscan.com/" >polygonscan.com  </a>
-  </h5>
-<h5>2.Scroll down to the bottom of the page and click on the button Add Polygon Network</h5>
+<h4 style={{marginBottom:"5px"}}>1.Navigate to <a style={{color:"green"}} href="https://polygonscan.com/" >polygonscan.com  </a>
+  </h4>
+<h4>2.Scroll down to the bottom of the page and click on the button Add Polygon Network</h4>
 
        </div>
                     <h3>Your Owned NFT</h3>
